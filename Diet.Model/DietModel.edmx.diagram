@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c67fd87eea4b42f8a3c687e8bae3a36c" Name="Diagram1" >
+        <EntityTypeShape EntityType="DietModel.Unit" Width="1.5" PointX="2.625" PointY="1.75" />
+        <EntityTypeShape EntityType="DietModel.Meal" Width="1.5" PointX="8.625" PointY="1.875" />
+        <EntityTypeShape EntityType="DietModel.DietType" Width="1.5" PointX="12.5" PointY="2.125" />
+        <EntityTypeShape EntityType="DietModel.DailyAssignment" Width="1.5" PointX="6.25" PointY="4.25" />
+        <AssociationConnector Association="DietModel.UnitDailyAssignment" />
+        <AssociationConnector Association="DietModel.MealDailyAssignment" />
+        <AssociationConnector Association="DietModel.DietTypeDailyAssignment" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
